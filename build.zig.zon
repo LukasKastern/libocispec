@@ -1,0 +1,17 @@
+.{
+    .name = .ocispec,
+    .paths = .{""},
+    .fingerprint = 0x1b9a4398a6ebbf6e,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/containers/libocispec#65e2c08f43f3afda5edcb81652471adfefa296dc",
+            .hash = "N-V-__8AAFgECABhdf8jEX977KFyNw_MFaVjlys6-DlSXKBr",
+        },
+        .json_c = .{
+            .url = "git+https://github.com/lukaskastern/json-c#0a67152991d4fede60e533bae213df77fdcd44e1",
+            .hash = "json_c-0.1.0-4thPU24mAAAldR0tFxD88PuVlS0KDSRoH5kVNwNQv1Co",
+        },
+    },
+}
